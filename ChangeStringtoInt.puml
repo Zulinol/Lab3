@@ -11,7 +11,7 @@ class client{
 +givetocheckertext()
 +takeresult()
 }
-
-
+client "0..*" <--> "1"checker
+checker o--> client
 
 @enduml
