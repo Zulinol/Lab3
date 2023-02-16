@@ -1,7 +1,17 @@
 @startuml
+skinparam classAttributeIconSize 0
 class checker {
++analyzetext()
++checkfornumbers()
++changestringtoint()
 }
 class client{
+-name : String
+-ID : Int
++givetocheckertext()
++takeresult()
 }
+
+
 
 @enduml
